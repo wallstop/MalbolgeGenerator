@@ -235,7 +235,7 @@ def printMalbolgeProgram(inputString):
 
 # The actual generation method
 # Generates a malbolge program that prints the desired string
-def findpythString(inputString):
+def findString(inputString):
     global malbolgeTape
     
     from random import choice
