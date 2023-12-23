@@ -247,7 +247,8 @@ def findString(inputString):
     opCodes = "op*"
 
     # endString holds the currently-found Malbolge program, in terms of operations
-    endString = ""
+    # Per https://github.com/wallstop/MalbolgeGenerator/issues/1#issuecomment-760341409
+    endString = "ioooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo"
 
     # Master loop, looks for letters
     for x in range(0, len(inputString)):
